@@ -1,0 +1,102 @@
+body     { background-color:#4F6D93;
+           background-image: linear-gradient(#FFFFFF, #4F6D93);
+		   background-repeat: no-repeat;
+           color: #666666; 
+		   font-family: Arial, Helvetica, sans-serif; }
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 80%;
+		   min-width: 960px;
+		   max-width: 2048px;
+		   box-shadow: 3px 3px 3px #333333;
+		   background-color: #B0C4DE;
+		   }
+		  
+header   { background-image: url(header.JPG);
+		   background-position: left;
+		   background-repeat: no-repeat;
+		   background-color: #000033;
+		   height: 60px;
+		   text-align: center;
+		   padding-top: 15px; }
+
+header h1       { margin-bottom: 0; }
+
+header span     { font: italic .80em;
+           		  color: #00005D;
+           		  padding-left: 15em;
+           		  }
+		
+nav       { float: left; }	
+  
+nav a    { text-decoration: none;}
+		 		  
+nav ul   { list-style-type: none;
+           margin: 0px;
+		   padding-left: 10px;
+		   padding-top: 10px;
+		   font-size: 1.2em; }
+		  
+nav a:link    { color: #000033; }
+		  
+nav a:visited { color: #344873; }
+		  
+nav a:hover   { color: #00008B; }
+							  
+main     { float: right;
+           background-color: #FFFFFF;
+           padding-bottom: 20px;
+		   padding-right: 20px;
+		   padding-left: 30px;
+           margin-left: 190px; }
+
+h2       { color: #3399CC; 
+		   font-family: Georgia, Times New Roman, serif; 
+		   text-shadow: 1px 1px 1px #CCCCCC;}
+		  
+h3       { color: #000033; 
+		   font-family: Georgia, Times New Roman, serif; }
+
+main ul  { list-style-image: url(marker.gif);
+		   list-style-type: circle; }
+iframe   { float: right; }
+
+figure   { clear: right;
+           float: left;
+           width: 225px;
+           padding-bottom: 10px;
+           background-color: #EAEAEA;
+           }
+
+figcaption { text-align: center;
+             font-style: italic;
+             font-family: Georgia, serif; 
+             }
+
+article header { background-color: #FFFFFF;
+                 background-image: none;
+                 font-size: 100%;
+                 padding-left: 0;
+                 height: auto;
+                 }
+
+aside    { float: right;
+           width: 15em;
+           padding: 1em;
+           background-color: #D3D3D3;
+           font-size: 80%;
+           box-shadow: 5px 5px 5px #A9A9A9;
+           position: relative;
+           top: -20px;
+           }
+		  
+footer   { clear: both;
+           font-family: Georgia, Times New Roman, serif;
+		   text-align: center;
+		   font-style: italic;
+		   font-size: 75%;
+		   padding: 20px;
+		   background-color: #FFFFFF;
+		   margin-left: 190px; }
+
